@@ -52,6 +52,7 @@ var startGame = function() {
     } else {
       window.alert('Thank you for playing Battlebots! Come back soon!');
     }
+
   };
   
   // fight function (now with parameter for enemy's object holding name, health, and attack values)
@@ -163,6 +164,7 @@ var startGame = function() {
         shop();
         break;
     }
+
   };
   
   // function to generate a random numeric value
@@ -197,6 +199,7 @@ var startGame = function() {
       this.attack += 6;
       this.money -= 7;
     }
+
   };
   
   // enemy information
@@ -213,13 +216,13 @@ var startGame = function() {
       name: 'Robo Trumble',
       attack: randomNumber(10, 14)
     }
+    
   ];
   
   console.log(enemyInfo);
   console.log(enemyInfo[0]);
   console.log(enemyInfo[0].name);
   console.log(enemyInfo[0]['attack']);
-  
   /* END GAME INFORMATION / VARIABLES */
   
   /* RUN GAME */
